@@ -1,0 +1,94 @@
+{
+    "Parking_Spots":[
+        {
+            "Slot_No": 1,
+            "Position": "",
+            "State": 1,
+            "Name": "Nilanjan Debnath",
+            "Booking_Time": "2024-02-24T02:32:56.064350+05:30",
+            "Leaving_Time": "",
+            "Car_No": "WB9234"
+        },
+        {
+            "Slot_No": 2,
+            "Position": "",
+            "State": 2,
+            "Name": "Nilanjan Debnath",
+            "Booking_Time": "2024-02-24T02:32:56.064350+05:30",
+            "Leaving_Time": "",
+            "Car_No": "WB9234"
+        },
+        {
+            "Slot_No": 3,
+            "Position": "",
+            "State": 0,
+            "Name": "",
+            "Booking_Time": "",
+            "Leaving_Time": "",
+            "Car_No": ""
+        },
+        {
+            "Slot_No": 4,
+            "Position": "",
+            "State": 1,
+            "Name": "Nilanjan Debnath",
+            "Booking_Time": "2024-02-24T02:32:56.064350+05:30",
+            "Leaving_Time": "",
+            "Car_No": "WB9234"
+        },
+        {
+            "Slot_No": 5,
+            "Position": "",
+            "State": 2,
+            "Name": "Nilanjan Debnath",
+            "Booking_Time": "2024-02-24T02:32:56.064350+05:30",
+            "Leaving_Time": "",
+            "Car_No": "WB9234"
+        },
+        {
+            "Slot_No": 6,
+            "Position": "",
+            "State": 0,
+            "Name": "",
+            "Booking_Time": "",
+            "Leaving_Time": "",
+            "Car_No": ""
+        },
+        {
+            "Slot_No": 7,
+            "Position": "",
+            "State": 2,
+            "Name": "Nilanjan Debnath",
+            "Booking_Time": "2024-02-24T02:32:56.064350+05:30",
+            "Leaving_Time": "",
+            "Car_No": "WB9234"
+        },
+        {
+            "Slot_No": 8,
+            "Position": "",
+            "State": 2,
+            "Name": "Nilanjan Debnath",
+            "Booking_Time": "2024-02-24T02:32:56.064350+05:30",
+            "Leaving_Time": "",
+            "Car_No": "WB9234"
+        },
+        {
+            "Slot_No": 9,
+            "Position": "",
+            "State": 1,
+            "Name": "Nilanjan Debnath",
+            "Booking_Time": "2024-02-24T02:32:56.064350+05:30",
+            "Leaving_Time": "",
+            "Car_No": "WB9235"
+        },
+        {
+            "Slot_No": 10,
+            "Position": "",
+            "State": 2,
+            "Name": "Nilanjan Debnath",
+            "Booking_Time": "2024-02-24T02:32:56.064350+05:30",
+            "Leaving_Time": "",
+            "Car_No": "WB9234"
+        }
+    ]
+}
