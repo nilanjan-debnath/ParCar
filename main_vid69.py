@@ -11,10 +11,10 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
 
-cred = credentials.Certificate("Private_Key.json")
-firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://parcar-dd9d9-default-rtdb.asia-southeast1.firebasedatabase.app/'
-})
+# cred = credentials.Certificate("Private_Key.json")
+# firebase_admin.initialize_app(cred, {
+#     'databaseURL': 'https://parcar-dd9d9-default-rtdb.asia-southeast1.firebasedatabase.app/'
+# })
 
 file_path = "sample69.json"
 
@@ -50,7 +50,8 @@ for i in data["Parking_Spots"]:
     posList.append(loc)
 
 def cloudUpdate():
-    db.reference('/demo_test/slot69_details').update(data)
+    # db.reference('/demo_test/slot69_details').update(data)
+    pass
 
 def localUpdate(slotNo, i):
     data["Parking_Spots"][slotNo]["State"] = i
