@@ -6,19 +6,17 @@ import cv2
 import cvzone
 import numpy as np
 from PIL import Image, ImageTk
-# import tkinter as tk
-# from tkinter import ttk
 import customtkinter as ctk
-import firebase_admin
-from firebase_admin import credentials
-from firebase_admin import db
+# import firebase_admin
+# from firebase_admin import credentials
+# from firebase_admin import db
 
 # 230801
 # Initialize Firebase
-cred = credentials.Certificate("Private_Key.json")
-firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://parcar-dd9d9-default-rtdb.asia-southeast1.firebasedatabase.app/'
-})
+# cred = credentials.Certificate("Private_Key.json")
+# firebase_admin.initialize_app(cred, {
+#     'databaseURL': 'https://parcar-dd9d9-default-rtdb.asia-southeast1.firebasedatabase.app/'
+# })
 
 file_path = "sample6.json"
 
@@ -54,7 +52,8 @@ for i in data["Parking_Spots"]:
     posList.append(loc)
 
 def cloudUpdate():
-    db.reference('/demo_test/slot_details').update(data)
+    # db.reference('/demo_test/slot_details').update(data)
+    pass
 
 def localUpdate(slotNo, i):
     data["Parking_Spots"][slotNo]["State"] = i

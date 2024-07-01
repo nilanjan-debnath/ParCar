@@ -7,9 +7,9 @@ import cvzone
 import numpy as np
 from PIL import Image, ImageTk
 import customtkinter as ctk
-import firebase_admin
-from firebase_admin import credentials
-from firebase_admin import db
+# import firebase_admin
+# from firebase_admin import credentials
+# from firebase_admin import db
 
 # cred = credentials.Certificate("Private_Key.json")
 # firebase_admin.initialize_app(cred, {
@@ -327,6 +327,8 @@ class App(ctk.CTk):
     def __init__(self):
         super().__init__()
         self.geometry("1280x720")
+        self.title('ParCar')
+        self.iconbitmap('parcar.ico')
         self.tab_view = MyTabView(master=self)
         self.tab_view.grid(row=0, column=0, padx=10, pady=10)
 

@@ -52,21 +52,6 @@ def checking_parking_space(imgPro):
         
     cvzone.putTextRect(img, f'Free: {SpaceCounter}/{len(posList)}', (100, 50), scale=3, thickness=5, offset=20)
 
-    
-    # Push data to Firebase
-    # db.reference('/parking_status_vid').update({
-    #     'slot_status_mapping': slot_status_mapping,
-    #     'Empty_Spaces': SpaceCounter,
-    #     'total_slots': len(posList)
-    # })
-
-    # if prev_SpaceCounter != SpaceCounter:
-    #     db.reference('/parking_status_vid').update({
-    #         'slot_status_mapping': slot_status_mapping,
-    #         'Empty_Spaces': SpaceCounter,
-    #         'total_slots': len(posList)
-    #     })
-    #     prev_SpaceCounter = SpaceCounter
     return slot_status_mapping
 
 while True:
